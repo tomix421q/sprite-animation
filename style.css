@@ -1,0 +1,41 @@
+html,
+body {
+    background: #111;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0, auto;
+    border: solid 6px #aaa;
+    border-radius: 10px;
+}
+
+.buttonArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 0fr 0fr;
+    width: 370px;
+    transform: translateX(5px);
+}
+
+button {
+    all: unset;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px white;
+    background: rgba(153, 207, 215, 0.742);
+    border: 1px solid black;
+    transition: 300ms;
+}
+
+button:hover {
+    background: rgba(255, 166, 0, 0.751);
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 1px 1px 1px white;
+    font-size: 20px;
+}
